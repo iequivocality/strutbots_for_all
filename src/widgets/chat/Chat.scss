@@ -1,0 +1,21 @@
+#chat {
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 600px;
+
+    .chat-message-enter {
+        left: -100%;
+    }
+    .chat-message-enter-active {
+        left: 0;
+        transition: left 100ms linear;
+    }
+    .chat-message-exit {
+        opacity: 1;
+    }
+    .chat-message-exit-active {
+        opacity: 0;
+        transition: opacity 100ms linear;
+    }
+}

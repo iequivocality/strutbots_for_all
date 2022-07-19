@@ -1,0 +1,16 @@
+.credits-wrapper {
+    padding: 55px 165px;
+    height: 1080px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    .credits {
+        position: absolute;
+        top: 100%;
+        width: 500px;
+
+        .job {
+            margin-top: 50px;
+        }
+    }
+}
